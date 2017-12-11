@@ -18,9 +18,9 @@ Running
 
     ./ynniogwen-proxy -url http://1.2.3.4/
 
-Routes
+HTTP Routes
 ------
-**/** JSON (cached for 1 minute) e.g.
+[http://localhost:9000/](http://localhost:9000/) JSON (cached for 1 minute) e.g.
 ```json
 {
     "G59 mains OK": 1,
@@ -41,7 +41,7 @@ Routes
 }
 ```
 
-**/metrics** [Prometheus](https://prometheus.io/) e.g.
+[http://localhost:9000/metrics](http://localhost:9000/metrics) Endpoint for [Prometheus](https://prometheus.io/) e.g.
 ```
 # HELP go_gc_duration_seconds A summary of the GC invocation durations.
 # TYPE go_gc_duration_seconds summary
