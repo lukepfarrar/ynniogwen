@@ -20,7 +20,7 @@ Running
 Routes
 ------
 */* JSON (cached for 1 minute) e.g.
-`json
+```json
 {
     "G59 mains OK": 1,
     "GV1 position": 42,
@@ -38,10 +38,10 @@ Routes
     "kWh": 719,
     "mWh": 329
 }
-`
+```
 
 */metrics* [Prometheus](https://prometheus.io/) e.g.
-`
+```
 # HELP go_gc_duration_seconds A summary of the GC invocation durations.
 # TYPE go_gc_duration_seconds summary
 go_gc_duration_seconds{quantile="0"} 0
@@ -180,4 +180,4 @@ ynni_ogwen_turbine_sump_level -106
 # HELP ynni_ogwen_turbine_theoretical_power Theoretical power output (KWh).
 # TYPE ynni_ogwen_turbine_theoretical_power gauge
 ynni_ogwen_turbine_theoretical_power 68
-`
+```
