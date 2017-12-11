@@ -7,11 +7,11 @@ Building
 --------
 
 Dependecies are managed with [dep](https://github.com/golang/dep)
-`bash
+```bash
 dep ensure
 cd ynniogwen-proxy
 go build
-`
+```
 
 Running
 -------
@@ -19,7 +19,7 @@ Running
 
 Routes
 ------
-*/* JSON (cached for 1 minute) e.g.
+**/** JSON (cached for 1 minute) e.g.
 ```json
 {
     "G59 mains OK": 1,
@@ -40,7 +40,7 @@ Routes
 }
 ```
 
-*/metrics* [Prometheus](https://prometheus.io/) e.g.
+**/metrics** [Prometheus](https://prometheus.io/) e.g.
 ```
 # HELP go_gc_duration_seconds A summary of the GC invocation durations.
 # TYPE go_gc_duration_seconds summary
