@@ -6,7 +6,7 @@ Scrapes values from the Ynni Ogwen turbine and serves on HTTP.
 Building
 --------
 
-Dependecies are managed with [Dep](https://github.com/golang/dep)
+Dependecies are managed with [dep](https://github.com/golang/dep)
 `bash
 dep ensure
 cd ynniogwen-proxy
