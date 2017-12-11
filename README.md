@@ -41,7 +41,7 @@ HTTP Routes
 }
 ```
 
-[http://localhost:9000/metrics](http://localhost:9000/metrics) Endpoint for [Prometheus](https://prometheus.io/) e.g.
+[http://localhost:9000/metrics](http://localhost:9000/metrics) Endpoint for [Prometheus](https://prometheus.io/) (cached for 5 seconds) e.g.
 ```
 # HELP go_gc_duration_seconds A summary of the GC invocation durations.
 # TYPE go_gc_duration_seconds summary
