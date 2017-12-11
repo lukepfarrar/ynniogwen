@@ -15,7 +15,8 @@ go build
 
 Running
 -------
-./ynniogwen-proxy -url http://1.2.3.4/
+
+    ./ynniogwen-proxy -url http://1.2.3.4/
 
 Routes
 ------
